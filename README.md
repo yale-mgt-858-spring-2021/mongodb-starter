@@ -18,6 +18,23 @@ that allow for dynamic schemas. You can stick whatever you want in there:
 YOLO woot! But, it comes at a cost, you don't get many of the guarantees
 that a relational database gives you.
 
+You can connect to the database as follows, if you're using the mongodb
+command line client
+
+```
+mongo "mongodb+srv://mgt858.zbst3.mongodb.net/restaurants" --username <username>
+```
+
+Obviously, replace `<username>` with your username.
+You'll need to be on the Yale VPN to connect. The username and password are
+in your "Dashboard" on the class website. Everybody has the same username and
+password for this assignment.
+
+Alternatively, if you want a GUI, you might like [MongoDB Compass](https://www.mongodb.com/products/compass).
+
+You'll want to read the [MongoDB manual](https://docs.mongodb.com/manual/tutorial/query-documents/) to
+learn how to write queries. It's a JavaScript-like language.
+
 One last thing: when you are working with MongoDB through the shell, you may
 find your eyes trying to sort through unreadable and jumbled data. We fix this
 by using a .pretty() command format after our queries. For example, we can do
