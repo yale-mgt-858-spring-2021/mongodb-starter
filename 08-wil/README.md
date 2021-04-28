@@ -6,5 +6,11 @@ remember the rest. You should be getting the hang of what your output
 queries should be looking like at this point 😊.
 
 Let's write a query that to find the restaurants that contain ^Wil as the
-first three letters of its name. Let's make sure to exclude the _id as
-well.
+first three letters of its name. Let's get only the `restaurant_id`,
+`name`, `borough`, and `cuisine` fields. Your results should look like this.
+
+```
+{ "borough" : "Brooklyn", "cuisine" : "Delicatessen", "name" : "Wilken'S Fine Food", "restaurant_id" : "40356483" }
+{ "borough" : "Bronx", "cuisine" : "American ", "name" : "Wild Asia", "restaurant_id" : "40357217" }
+{ "borough" : "Bronx", "cuisine" : "Pizza", "name" : "Wilbel Pizza", "restaurant_id" : "40871979" }
+```

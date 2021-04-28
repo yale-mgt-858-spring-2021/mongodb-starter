@@ -5,4 +5,5 @@ a specified date.
 
 Let's get more specific with our criteria. Find establishments that have
 a score greater than 85 but less than 100. Your solution should look like
-the one displayed above but with the specified score ranges.
+the one displayed above but with the specified score ranges. Results should 
+look similar to the previous question but with fewer results.

@@ -6,5 +6,5 @@ Your solution should look something like this:
 ```
 { "borough" : "New Haven", "cuisine" : "American", "name" : "Bar Restaurant"}
 {"borough" : "West Haven", "cuisine" : "Bakery", "name" : "Pistachio Cafe" }
-
+...
 ```

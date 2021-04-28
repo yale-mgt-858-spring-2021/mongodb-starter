@@ -69,11 +69,10 @@ something like db.users.find() but that would give us data that looks like this:
 
   ```
   Much better on the eyes! Rather than type .pretty() after each query we write,
-  we can just make this the default option.
+  we can just make this the default option. That's left as an exercise to the
+  reader. It won't matter for the grading whether your answer is "pretty" or not.
 
-  Before starting, make sure you add this to the beginning of your file!
-
-    DBQuery.prototype._prettyShell = true
+  To get started, accept [this GitHub Classrom Invite](https://classroom.github.com/a/m-ArdGUH).
 
 
 
@@ -89,13 +88,12 @@ We suggest you complete the questions in the following order
 - [ ] 05-date-night
 - [ ] 06-date-night-greater-than-85
 - [ ] 07-date-night-not-american
-- [ ] 08-ascending-order
-- [ ] 09-wil
-- [ ] 10-ces
-- [ ] 11-friday-night
-- [ ] 12-friday-night-cant-decide
-- [ ] 13-power-outage
-- [ ] 14-advanced-db
+- [ ] 08-wil
+- [ ] 09-ces
+- [ ] 10-friday-night
+- [ ] 11-friday-night-cant-decide
+- [ ] 12-power-outage
+- [ ] 13-advanced-db
 
 
 As you complete questions, you can mark them as complete

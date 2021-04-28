@@ -3,9 +3,17 @@ all documents in the collection file.
 
 Your results should look like this
 ```
-{ "_id" : ObjectId("133c2d879eb23ad234f15c9"), "borough" : "New Haven",
-"cuisine" : "American", "name" : "Bar Restaurant"}
-{"_id" : ObjectId("123c2d879eb23ad234f15c9") "borough" : "West Haven",
-"cuisine" : "Bakery", "name" : "Pistachio Cafe" }
-
+{
+  "_id" : ObjectId("6089abbd9e30002f3f868395"),
+  "borough" : "Queens",
+  "cuisine" : "Jewish/Kosher",
+  "name" : "Tov Kosher Kitchen"
+}
+{
+  "_id" : ObjectId("6089abbd9e30002f3f868396"),
+  "borough" : "Queens",
+  "cuisine" : "American ",
+  "name" : "Brunos On The Boulevard"
+}
+...
 ```
