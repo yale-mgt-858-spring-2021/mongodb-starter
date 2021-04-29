@@ -1,6 +1,9 @@
 
 This list is still big. Let's get the first 10 restaurants (by
-alphabetical order of name) in the borough Queens.
+alphabetical order of name) in the borough Queens. As per the previous 
+questions, only show the borough, cuisine, and name, while excluding _id.
+
+You can find the full result [here](https://gist.github.com/lmdisch/b5fbcbd5d77e977eeb618bb70ed734f5)
 
 ```
 { "borough" : "Queens", "cuisine" : "Delicatessen", "name" : "101 Deli" }

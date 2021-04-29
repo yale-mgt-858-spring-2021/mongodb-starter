@@ -2,7 +2,8 @@ Darn, can't come to a decision based on our previous query. Let's just pick
 based on location.
 
 Write a query that gives restaurants in Brooklyn, Queens, Manhattan,
-or the Bronx.
+or the Bronx. Have your query show the borough, cuisine, name, 
+and restaurant_id.
 
 Your results should look like as follows (please make sure you get only
 the fields shown).

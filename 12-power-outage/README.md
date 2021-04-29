@@ -16,5 +16,4 @@ the fields shown). Sort by name, ascending.
 { "name" : "Ali'S Roti Shop" }
 { "name" : "Ambassador Diner" }
 { "name" : "Ambrosinos Pizzeria" }
-...
 ```

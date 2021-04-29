@@ -7,16 +7,33 @@ find places that are in Brooklyn.
 
 You open up your MongoDB shell and write what query?
 
-Your results should look like as follows (please make sure you get only
-the fields shown).
+The first few lines of you answer should look something like this.
+
+You can find the full result [here](https://gist.github.com/lmdisch/068ae3c7542da46f0772a8711e072a53)
 
 ```
-{ "borough" : "Brooklyn", "cuisine" : "Chinese", "name" : "May May Kitchen", "restaurant_id" : "40358429" }
-{ "borough" : "Brooklyn", "cuisine" : "Chinese", "name" : "Golden Pavillion", "restaurant_id" : "40363920" }
-{ "borough" : "Brooklyn", "cuisine" : "Chinese", "name" : "Lee'S Villa Chinese Restaurant", "restaurant_id" : "40388386" }
-{ "borough" : "Brooklyn", "cuisine" : "Chinese", "name" : "Kum Kau Kitchen", "restaurant_id" : "40390653" }
-{ "borough" : "Brooklyn", "cuisine" : "Chinese", "name" : "Szechuan Delight Restaurant", "restaurant_id" : "40391528" }
-{ "borough" : "Brooklyn", "cuisine" : "Chinese", "name" : "Yen Yen Restaurant", "restaurant_id" : "40393181" }
-{ "borough" : "Brooklyn", "cuisine" : "Chinese", "name" : "Master Wok", "restaurant_id" : "40398688" }
-...
+  {
+          "borough" : "Brooklyn",
+          "cuisine" : "Chinese",
+          "name" : "Golden Pavillion",
+          "restaurant_id" : "40363920"
+  }
+  {
+          "borough" : "Brooklyn",
+          "cuisine" : "Chinese",
+          "name" : "May May Kitchen",
+          "restaurant_id" : "40358429"
+  }
+  {
+          "borough" : "Brooklyn",
+          "cuisine" : "Chinese",
+          "name" : "Yen Yen Restaurant",
+          "restaurant_id" : "40393181"
+  }
+  {
+          "borough" : "Brooklyn",
+          "cuisine" : "Chinese",
+          "name" : "Kum Kau Kitchen",
+          "restaurant_id" : "40390653"
+  }
 ```

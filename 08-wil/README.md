@@ -10,7 +10,22 @@ first three letters of its name. Let's get only the `restaurant_id`,
 `name`, `borough`, and `cuisine` fields. Your results should look like this.
 
 ```
-{ "borough" : "Brooklyn", "cuisine" : "Delicatessen", "name" : "Wilken'S Fine Food", "restaurant_id" : "40356483" }
-{ "borough" : "Bronx", "cuisine" : "American ", "name" : "Wild Asia", "restaurant_id" : "40357217" }
-{ "borough" : "Bronx", "cuisine" : "Pizza", "name" : "Wilbel Pizza", "restaurant_id" : "40871979" }
+  {
+          "borough" : "Brooklyn",
+          "cuisine" : "Delicatessen",
+          "name" : "Wilken'S Fine Food",
+          "restaurant_id" : "40356483"
+  }
+  {
+          "borough" : "Bronx",
+          "cuisine" : "American ",
+          "name" : "Wild Asia",
+          "restaurant_id" : "40357217"
+  }
+  {
+          "borough" : "Bronx",
+          "cuisine" : "Pizza",
+          "name" : "Wilbel Pizza",
+          "restaurant_id" : "40871979"
+  }
 ```
